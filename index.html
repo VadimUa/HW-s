@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Beck HW</title>
+    <style>
+    .white{
+        background:white;
+        height:18px;
+        width:18px;
+        display:inline-block;
+    }
+    .capt{
+        background:#d6b831;
+        text-align: left;
+        vertical-align: middle;
+        padding-left:15px;
+        height: 35px;
+    }
+    .row_table{
+        height: 150px;
+        width: 500px;
+    }
+    table .first_table table .second_table{
+        height: 650px;
+        width: 900px; 
+        border-spacing: 0px;
+        border-collapse: collapse;
+    }
+    img{
+        height:150px;
+        width:185px;
+    }
+    .first_cell{
+        width:100px;
+        font-weight: 800;
+        border-right: 1px solid black;
+    }
+    .third_cell{
+        width:210px;
+        font-weight: 800;
+        font-size: 14pt;
+    }
+    .capt_text{
+        font-size: 21pt;
+        color:white;
+    }
+    tr{
+        border-bottom: 1px solid black;
+    }
+    .row_table_last{
+        border-bottom: none;
+    }
+    .sec_capt{
+        color:rgb(140, 206, 250);
+        font-size:22pt;
+        background:rgb(64, 98, 160);
+        height:70px;
+        text-align: center;
+        text-shadow: black 2px 1px 1px;
+        font-weight: bold;
+    }
+    .line{
+        height:200px;
+    }
+    .food_list{
+        list-style-type:none;
+        width:86px;
+    }
+    .red{
+        background:red;
+        color:yellow;
+        text-align: center;
+        border:2px solid white;
+        font-weight: bold;
+    }
+    .blue{
+        background:rgb(147, 185, 236);
+        color:blue;
+        text-align: center;
+        padding-right: 10px;
+        border:2px solid white;
+    }
+    .food_photo{
+        background-size: cover;
+    }
+    .smal_table{
+        border:2px solid white;
+        transform:translateY(-30px);
+    }
+    .second_table tbody{
+        background:rgb(147, 185, 236);
+    }
+    table{
+        border-collapse: collapse;
+    }
+    </style>
+</head>
+<body>
+    <ol reversed> 
+        <li>Sunday</li>
+        <li>Saturday</li>
+        <li>Friday</li>
+        <li>Thursday</li>
+        <li>Wednesday</li>
+        <li>Tuesday</li>
+        <li>Monday</li>
+    </ol>
+    <table class="first_table">
+        <caption class="capt">
+                <div class="white"></div> <span class="capt_text"> Где искать витамины?</span>
+        </caption>
+        <tr class="row_table">
+            <td class="first_cell">Витамин А:</td>
+            <td><img src="https://edaplus.info/food_pictures/carrot.jpg" alt="">
+            <img src="https://edaplus.info/food_pictures/broccoli.jpg" alt="">
+            <img src="https://sostavproduktov.ru/sites/default/files/styles/article_body/public/pictures/meat/subprodukty/goviagiya_pechen/govyazhiya_pechen.jpg?itok=qTwdaigT" alt=""></td>
+            <td class="third_cell">говяжья печень яйца творог рыба молоко шпинат морковь петрушка</td>
+        </tr>
+        <tr class="row_table">
+                <td class="first_cell">Витамин B1:</td>
+                <td><img src="https://images.lady.mail.ru/455957/" alt="">
+                <img src="https://e1.edimdoma.ru/data/ingredients/0000/2379/2379-ed4_wide.jpg?1507193758" alt="">
+                <img src="http://receptov.net/uploads/posts/2015-03/1425546592_goroh.jpg" alt=""></td>
+                <td class="third_cell">яйца молоко говяжья печень горох фасоль дрожжи ростки пшеницы</td>
+        </tr>
+        <tr class="row_table">
+                <td class="first_cell">Витамин B2:</td>
+                <td><img src="http://storage.pigua.info/files/data/dasha/2017/april/7_m.jpg" alt="">
+                <img src="http://vioil.com/wp-content/uploads/2018/03/oil2.jpg" alt="">
+                <img src="http://vegplanet.ru/wp-content/uploads/2015/01/quinoa-porridge.jpg" alt=""></td>
+                <td class="third_cell">творог яйца овясыне хлопья свиниа рыба молоко масло</td>
+        </tr>
+        <tr class="row_table_last">
+                <td class="first_cell">Витамин С:</td>
+                <td><img src="https://fermoved.ru/wp-content/uploads/2018/05/polza-i-vred-organizma-600x450.jpg" alt="">
+                <img src="https://img3.zakaz.ua/20150615.1434629489.ad72436478c_2015-06-18_vitaliy/20150615.1434629489.SNCPSG10.obj.0.1.jpg.oe.jpg.pf.jpg.1350nowm.jpg.1350x.jpg" alt="">
+                <img src="https://edaplus.info/food_pictures/apple.jpg" alt=""></td>
+                <td class="third_cell">цытрусовые красные фрукты цветная капуста зеленый горошек фасоль редька</td>
+        </tr>
+    </table>
+<div class="line"></div>
+    <table class="second_table">
+        <caption class="sec_capt">Callorie chart of most commonly used indian food</caption>
+        <tr>
+            <td>
+                <table class="smal_table">
+                    <tr class="red">
+                        <td class="red">snacks</td>
+                        <td class="red">name</td>
+                        <td class="red">quantity</td>
+                        <td class="red">  calories</td>
+                    </tr>
+                    <tr class="blue">
+                        <td class="food_photo"><img src="https://i.pinimg.com/originals/ac/59/bc/ac59bc7d99fd253429b81df21d439498.jpg" alt=""></td>
+                        <td class="blue"><ul class="food_list">
+                            <li>burger</li>
+                            <li>pizza</li>
+                            <li>samosa</li>
+                            <li>pakoda</li>
+                            <li>potato</li>
+                            <li>dani</li>
+                            <li>french</li>
+                        </ul></td>
+                        <td class="blue"><ul class="food_list ">
+                            <li>1pcs</li>
+                            <li>1por</li>
+                            <li>1pcs</li>
+                            <li>1pcs</li>
+                            <li>10pcs</li>
+                            <li>1pcs</li>
+                            <li>1pcs</li>
+                        </ul></td>
+                        <td class="blue">
+                            <ul class="food_list">
+                                <li>350</li>
+                                <li>320</li>
+                                <li>324</li>
+                                <li>350</li>
+                                <li>300</li>
+                                <li>324</li>
+                                <li>310</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                    <table class="smal_table">
+                            <tr class="red">
+                                <td class="red">name</td>
+                                <td class="red">quantity</td>
+                                <td class="red">calories</td>
+                                <td class="red">meat/poultry</td>
+
+                            </tr>
+                            <tr class="blue">
+                                <td class="blue"><ul class="food_list">
+                                    <li>burger</li>
+                                    <li>pizza</li>
+                                    <li>samosa</li>
+                                    <li>pakoda</li>
+                                    <li>potato</li>
+                                    <li>dani</li>
+                                    <li>french</li>
+                                </ul></td>
+                                <td class="blue"><ul class="food_list">
+                                    <li>1pcs</li>
+                                    <li>1por</li>
+                                    <li>1pcs</li>
+                                    <li>1pcs</li>
+                                    <li>10pcs</li>
+                                    <li>1pcs</li>
+                                    <li>1pcs</li>
+                                </ul></td>
+                                <td class="blue">
+                                    <ul class="food_list">
+                                        <li>150</li>
+                                        <li>220</li>
+                                        <li>324</li>
+                                        <li>150</li>
+                                        <li>300</li>
+                                        <li>224</li>
+                                        <li>310</li>
+                                    </ul>
+                                </td>
+                                <td class="food_photo"><img src="https://gotovim-doma.ru/images/recipe/9/d1/9d15eba18c792a3c32095b238ccef6b8_l.jpg" alt=""></td>
+                            </tr>
+                        </table>
+            </td>
+        </tr>
+        <tr>
+            <td><table class="smal_table">
+                    <tr class="red">
+                        <td class="red">fruits</td>
+                        <td class="red">name</td>
+                        <td class="red">quantity</td>
+                        <td class="red">calories</td>
+                    </tr>
+                    <tr class="blue">
+                        <td class="food_photo"><img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimg1.cookinglight.timeinc.net%2Fsites%2Fdefault%2Ffiles%2Fstyles%2F4_3_horizontal_-_1200x900%2Fpublic%2F1502826406%2F1708w-getty-fruit-closeup-CarstenSchanter-EyeEm.jpg%3Fitok%3DXFE9vQPZ&w=400&c=sc&poi=face&q=85" alt=""></td>
+                        <td class="blue"><ul class="food_list">
+                            <li>aple</li>
+                            <li>banan</li>
+                            <li>samosa</li>
+                            <li>orange</li>
+                            <li>pineaple</li>
+                            <li>dani</li>
+                            <li>french</li>
+                        </ul></td>
+                        <td class="blue"><ul class="food_list">
+                            <li>2pcs</li>
+                            <li>1por</li>
+                            <li>1pcs</li>
+                            <li>2pcs</li>
+                            <li>10pcs</li>
+                            <li>1pcs</li>
+                            <li>2pcs</li>
+                        </ul></td>
+                        <td class="blue">
+                            <ul class="food_list">
+                                <li>150</li>
+                                <li>120</li>
+                                <li>124</li>
+                                <li>150</li>
+                                <li>100</li>
+                                <li>124</li>
+                                <li>310</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table></td>
+            <td>
+                    <table class="smal_table">
+                            <tr class="red">
+                                <td class="red">name</td>
+                                <td class="red">quantity</td>
+                                <td class="red"> calories</td>
+                                <td class="red"> brad and rice</td>
+
+                            </tr>
+                            <tr class="blue">
+                                <td class="blue"><ul class="food_list">
+                                    <li>bread</li>
+                                    <li>rice</li>
+                                    <li>samosa</li>
+                                    <li>pakoda</li>
+                                    <li>pearntha</li>
+                                    <li>oil</li>
+                                    <li>flour</li>
+                                </ul></td>
+                                <td class="blue"><ul class="food_list">
+                                    <li>1slice</li>
+                                    <li>1por</li>
+                                    <li>10grms</li>
+                                    <li>1pcs</li>
+                                    <li>10ogrms</li>
+                                    <li>10pcs</li>
+                                    <li>1pcs</li>
+                                </ul></td>
+                                <td class="blue">
+                                    <ul class="food_list">
+                                        <li>60</li>
+                                        <li>120</li>
+                                        <li>224</li>
+                                        <li>150</li>
+                                        <li>200</li>
+                                        <li>324</li>
+                                        <li>210</li>
+                                    </ul>
+                                </td>
+                                <td class="food_photo"><img src="https://thumbs.dreamstime.com/z/rice-bread-seed-plant-genus-found-asia-scientific-name-oryza-sativa-major-food-crop-40320418.jpg" alt=""></td>
+                            </tr>
+                        </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
